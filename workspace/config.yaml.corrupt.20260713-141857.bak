@@ -1,0 +1,15 @@
+﻿# 榛樿妯″瀷锛歁iniMax Coding Plan锛堝浗鍐呯鐐癸紝Anthropic 鍏煎锛?
+# - key 浠庣幆澧冨彉閲?MINIMAX_API_KEY 璇诲彇锛堜笉鍐欏叆姝ゆ枃浠讹紝闅忔簮鐮佽蛋鐨勫彧鏈夌粨鏋勶級
+# - base_url 璧板浗鍐呯鐐?api.minimaxi.com锛堥樋閲屼簯鐩磋繛锛屼笉缁忎唬鐞嗭級
+model: Qwen/Qwen3-32B
+  default: MiniMax-M2.7-highspeed
+  base_url: https://api.minimaxi.com/anthropic
+
+platforms:
+  api_server:
+    port: 8642
+    enabled: true
+mcp_servers: {}
+
+provider: custom
+

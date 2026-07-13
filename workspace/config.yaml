@@ -1,0 +1,12 @@
+﻿# 默认配置模板
+model:
+  name: Qwen/Qwen3-32B
+  provider: custom
+
+platforms:
+  api_server:
+    port: 8642
+    enabled: true
+
+mcp_servers: {}
+
